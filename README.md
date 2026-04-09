@@ -13,6 +13,6 @@ Se estiver no computador, passe o mouse por cima do link, clique com o botão di
         Clique aqui para abrir a lista
     </summary>
 
-- [MARK 1 - Psicologia das cores](https://arthurhick0.github.io/pensamentos-criatívos/mark-1/index.html)
+- [MARK 1 - Psicologia das cores](https://arthurhick0.github.io/Front-End/mark-1/index.html)
 
 </details>
