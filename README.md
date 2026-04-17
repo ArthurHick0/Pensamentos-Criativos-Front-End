@@ -1,4 +1,4 @@
-# Pensamentos Criatívos (Front-end)
+# Pensamentos Criatívos
 
 Ideias variadas sendo colocadas em prática!
 
@@ -14,5 +14,7 @@ Se estiver no computador, passe o mouse por cima do link, clique com o botão di
     </summary>
 
 - [MARK 1 - Psicologia das cores](https://arthurhick0.github.io/Front-End/mark-1/index.html)
+
+- [MARK 1 - Psicologia das cores - v2.0](https://arthurhick0.github.io/Front-End/mark-2/index.html)
 
 </details>
