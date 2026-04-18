@@ -15,6 +15,8 @@ Se estiver no computador, passe o mouse por cima do link, clique com o botão di
 
 - [MARK 1 - Psicologia das cores](https://arthurhick0.github.io/Front-End/mark-1/index.html)
 
-- [MARK 1 - Psicologia das cores - v2.1](https://arthurhick0.github.io/Front-End/mark-2/index.html)
+- [MARK 2 - Psicologia das cores - v2.1](https://arthurhick0.github.io/Front-End/mark-2/index.html)
+
+- [MARK 3 - Site Responsivo](https://arthurhick0.github.io/Front-End/mark-3/index.html)
 
 </details>
