@@ -19,51 +19,71 @@
             <li class="hideMobile"><a href="#">Blog</a></li>
             <li class="hideMobile"><a href="#">Contato</a></li>
 
-            <li class="hideDesktop" onclick=showSidebar()><a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
-            </a></li>
+            <li class="menuButton" onclick=showSidebar()><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#e3e3e3">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                </a>
+            </li>
         </ul>
 
         <ul class="sidebar">
 
-            <li onclick=hideSidebar()><a href="#">
-                <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
-                </svg>
-            </a></li>
+            <li class="closeButton" onclick="hideSidebar()"><a href="#">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960"
+                        width="24px" fill="#e3e3e3">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </a>
+            </li>
 
             <li><a href="#">Início</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Projetos</a></li>
             <li><a href="#">Blog</a></li>
+            <li><a href="#">Referências</a></li>
+            <li><a href="#">Configurações</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
     </nav>
 
     <div class="content">
-        <h1>Eae, aqui é o Hick!</h1> <br>
+        <h1>Eae, aqui é o Hick!</h1>
         <p>
-           Vou contar um pouco sobre esse projeto, ele é simples porém especial! <br> Ele foi feito para ser responsivo com base no dispostivo usado para abri-lo. Seu layout é programado para ser flexível, com isso seu menu é alterado conforme o tamanho da tela. 
-           <br> Faça o teste! <br> <br> 
-           
-           Caso use PC: Altere o tamanho da janela do navegador ou entre no modo de inspeção (Aperte a tecla F12 e depois clique no ícone de tablet/celular), dessa forma você poderá alterar as dimensões da janela e o menu irá se moldar ao tamanho. <br> <br>
+            Vou contar um pouco sobre esse projeto, ele é simples porém especial! <br> Esse site foi feito para ser responsivo
+            com base no dispostivo usado para abri-lo. Seu layout é programado para ser flexível, com isso seu menu é
+            alterado conforme o tamanho da tela. <br>
+            Faça o teste! <br> <br>
 
-           Caso use dispositivo móvel: Clique nos três pontos na área superior do navegador e ative o modo "Site para computador", após isso deite seu aparelho para centralizar o conteúdo, dessa forma você verá o menu se moldar ao tamanho. <br> <br>
+            Caso use PC: Altere o tamanho da janela do navegador ou entre no modo de inspeção (Aperte a tecla F12 e
+            depois clique no ícone de tablet/celular), dessa forma você poderá alterar as dimensões da janela e o menu
+            irá se moldar ao tamanho. <br> <br>
 
-           Obrigado por acessar meu projeto! <br> Em breve esse mesmo site terá suas funcionalidades atualizadas e eu espero ver você aqui novamente!
+            Caso use dispositivo móvel: Deite seu aparelho para alterar a orientação do menu e centralizar seu conteúdo.
+            Teste também o layout ativando o modo "Site para computador" nas configurações do seu navegador.
+            <br> <br>
+
+            Obrigado por acessar meu projeto! <br> 
+            Em breve esse mesmo site terá suas funcionalidades atualizadas e eu espero ver você aqui novamente!
         </p>
     </div>
-
+    
     <script>
         function showSidebar() {
-            const sidebar = document.querySelector(".sidebar");
-            sidebar.style.display = "flex";
+            document.querySelector(".sidebar").classList.add("active");
+            document.querySelector(".overlay").style.display = "block";
+            document.body.classList.add("menu-open");
         }
-
         function hideSidebar() {
-            const sidebar = document.querySelector(".sidebar");
-            sidebar.style.display = "none";
+            document.querySelector(".sidebar").classList.remove("active");
+            document.querySelector(".overlay").style.display = "none";
+            document.body.classList.remove("menu-open");
         }
     </script>
+
+    <div class="overlay" onclick="hideSidebar()"></div>
 </body>
 
 </html>

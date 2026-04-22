@@ -17,7 +17,7 @@ Se estiver no computador, passe o mouse por cima do link, clique com o botão di
 
 - [MARK 2 - Psicologia das cores - v2.1](https://arthurhick0.github.io/Front-End/mark-2/index.html)
 
-- [MARK 3 - Menu Responsivo](https://arthurhick0.github.io/Front-End/mark-3/index.html)
+- [MARK 3 - Menu Adaptativo](https://arthurhick0.github.io/Front-End/mark-3/index.html)
 
 - [MARK 4 - Sidebar Lateral](https://arthurhick0.github.io/Front-End/mark-4/index.html)
 
